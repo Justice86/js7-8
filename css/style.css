@@ -10,8 +10,9 @@
 
 .menu li {
     display: inline;
-    margin-bottom: -1px;
+    /*margin-bottom: -3px;*/
     margin-left: 5px;
+    padding: 2px 5px;
     border: 2px solid #ddd;
     border-radius: 3px 3px 0 0;
     list-style: none;
@@ -20,10 +21,16 @@
 
 .menu-item a {
     text-decoration: none;
+    color: #00bfff;
+}
+
+.active:visited {
+    color: #dc143c;
 }
 
 .tabs-text {
     display: none;
+    margin-top: 2px;
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 6px;
